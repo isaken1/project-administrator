@@ -3,10 +3,10 @@ package com.isaackennedy.projectadministrator;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class ProjectAdministratorApplicationTests {
 
-	@Test
+//	@Test
 	void contextLoads() {
 	}
 
