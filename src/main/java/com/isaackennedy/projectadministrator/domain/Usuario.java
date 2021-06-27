@@ -1,5 +1,6 @@
 package com.isaackennedy.projectadministrator.domain;
 
+import com.isaackennedy.projectadministrator.domain.enums.TipoUsuario;
 import lombok.Data;
 
 import javax.persistence.*;
