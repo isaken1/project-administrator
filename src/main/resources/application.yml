@@ -11,8 +11,16 @@ spring:
 server:
   port: ${PORT}
 
+jwt:
+  secret: qenMTR37dGCYQ7InC17co4Mf8g3NxfOlYU98hFQlSLTYNL5vHBshSvc72vlNAmn
+  expiration: 86400000
+
 ---
 spring:
+  devtools:
+    remote:
+      proxy:
+        port: 8081
   datasource:
     url: ${DB_URL}
     username: ${DB_USERNAME}
