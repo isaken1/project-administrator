@@ -19,9 +19,9 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
-    private AuthenticationManager authenticationManager;
-    private JWTUtil util;
-    private UsuarioRepository repository;
+    private final AuthenticationManager authenticationManager;
+    private final JWTUtil util;
+    private final UsuarioRepository repository;
 
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager, JWTUtil util,
                                    UsuarioRepository repository) {
