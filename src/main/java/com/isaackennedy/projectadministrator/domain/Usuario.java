@@ -1,4 +1,4 @@
-package com.isaackennedy.projectadministrator.model;
+package com.isaackennedy.projectadministrator.domain;
 
 import lombok.Data;
 
